@@ -1,0 +1,44 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+h1 {
+    color: #364e96;/*文字色*/
+    padding: 0.5em 0;/*上下の余白*/
+    border-top: solid 3px #364e96;/*上線*/
+    border-bottom: solid 3px #364e96;/*下線*/
+}
+
+h2, h3, h4, h5 {
+    color: #364e96;/*文字色*/
+    padding: 0.5em 0;/*上下の余白*/
+}
+
+header, footer{
+    background-color: #1d2b38;
+    height: 50px;
+    color:white;
+    text-align: left;
+    padding: 10px;
+}
+
+nav{
+    background-color: #8daac7;
+    height: 25px;
+    color:white;
+    padding: 10px;
+}
+
+html {
+	overflow-y:scroll;
+    background-color: #7295b8;
+}
+
+.card {
+    border-radius: 10px;
+    width: 90%;
+    background-color: #ffffff;
+    margin: 30px;
+    padding: 30px;
+}
